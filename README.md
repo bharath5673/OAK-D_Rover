@@ -14,7 +14,7 @@ simply just need to build the car, wireup as shown below,  pip install pyserial 
 **components im using**
 
 
-   [ 1. MDF board](https://www.flipkart.com/whittlewud-pack-10-blank-wood-mdf-board-mdf-chipboard-sheets-crafts-arts-laser-cutting-8in-x-size-each-pieces-pine-veneer/p/itmed0d953027b82?pid=WVRGY9VQFENWZP6S&lid=LSTWVRGY9VQFENWZP6SL9F3WE&marketplace=FLIPKART&cmpid=content_wood-veneer_8965229628_gmc)\
+   [ 1. MDF board](https://www.flipkart.com/whittlewud-pack-10-blank-wood-mdf-board-mdf-chipboard-sheets-crafts-arts-laser-cutting-8in-x-size-each-pieces-pine-veneer/p/itmed0d953027b82?pid=WVRGY9VQFENWZP6S&lid=LSTWVRGY9VQFENWZP6SL9F3WE&marketplace=FLIPKART&cmpid=content_wood-veneer_8965229628_gmc) really mdf sheets were far better than acrylic sheet  \ 
    [2. 24 1"L camps ](https://www.indiamart.com/proddetail/l-shape-clamp-partition-clamp-20823807291.html)\
    [3. male, female header pins](https://www.amazon.in/Component-General-Purpose-Printed-Circuit/dp/B08GJ8YL2S/ref=sr_1_2?crid=29Q45MKJKWWBL&dchild=1&keywords=pcb+boards&qid=1619415738&s=industrial&sprefix=pcb+board%2Cindustrial%2C293&sr=1-2)\
    [4. prototype PCB ](https://www.amazon.in/Component-General-Purpose-Printed-Circuit/dp/B08GJ8YL2S/ref=sr_1_2?crid=29Q45MKJKWWBL&dchild=1&keywords=pcb+boards&qid=1619415738&s=industrial&sprefix=pcb+board%2Cindustrial%2C293&sr=1-2)\
