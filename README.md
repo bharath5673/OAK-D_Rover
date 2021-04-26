@@ -2,6 +2,7 @@
 
 **i turned my old toy car into a POWERFUL Robot.**
 
+ ![Alt text](spy-d.jpg) \
 
 and this car, my codes will work on all the devices such as jetson nano, windows, ubuntu, ros etc.. with the same code..  
 python makes it easy, with the help of pyserial lib.
