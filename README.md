@@ -107,7 +107,7 @@ had to use a DC-DC buck converter  drawing power directly from the 12v batteries
     ENA             >       D5
     ENB             >       D6
     IN3             >       D6
-    IN3             >       D7 th pin of arduino.
+    IN4             >       D7 th pin of arduino.
     +pin            >       battery + (12v)
     GND             >       battery -
     GND             >       arduino's GND
