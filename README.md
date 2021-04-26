@@ -123,4 +123,3 @@ yolov4 api
 
 
 
-# OAK-D_Rover
