@@ -8,20 +8,20 @@
  
 **robot specs:**
 
-/speed control upto 10 modes
-/live streaming
-object detetction
-object's distance estimation
-obstical avoidance
-sound notification
-LED headlamps
-object tracking
-face tracking
-face detetcion and recognition
-slam
-disparity mapping
-autonomus driving
-RunTime around 5+ hrs
+*speed control upto 10 modes*\
+*live streaming*\
+*object detetction*\
+*object's distance estimation*\
+*obstical avoidance*\
+*sound notification*\
+*LED headlamps*\
+*object tracking*\
+*face tracking*\
+*face detetcion and recognition*\
+*slam*\
+*disparity mapping*\
+*autonomus driving*\
+*RunTime around 5+ hrs*\
 
  
 
