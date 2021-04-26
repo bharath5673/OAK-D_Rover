@@ -140,7 +140,7 @@ object detetction
 object's distance estimation
 obstical avoidance
 sound notification
-headlights
+LED headlamps
 object tracking
 face tracking
 face detetcion and recognition
