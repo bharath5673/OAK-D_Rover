@@ -146,7 +146,9 @@ face tracking
 face detetcion and recognition
 slam
 disparity mapping
-autonomus driving.
+autonomus driving
+run time around 5+ hrs
+
 ```
 
 
