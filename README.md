@@ -113,8 +113,14 @@ had to use a DC-DC buck converter  drawing power directly from the 12v batteries
     c. RPi to arduino connection with USB cable
     d. OAK-D to RPi connection with a USB cable
 
+# env setp:#
 
-now it was all set to run the car:
+  python3 -m pip install -U pip
+  python3 -m pip install opencv-python
+  python3 -m pip install -U --force-reinstall depthai
+
+
+now it was all set to run the car by running [SPY-D_yolov4.py](SPY-D_yolov4.py) :
 
 *demo*
 
