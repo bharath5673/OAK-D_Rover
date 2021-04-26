@@ -45,7 +45,7 @@ simply just need to build the car, wireup as shown below,  pip install pyserial 
    [29. slide switch for power](https://www.amazon.in/Combo-switch-Rocker-pieces-project/dp/B08RY7B3KR/ref=sr_1_1?crid=1EOE0OHCGXI3N&dchild=1&keywords=slide+switch&qid=1619417060&sprefix=slide+sw%2Caps%2C297&sr=8-1)\
    [30. patiences.](https://assets.entrepreneur.com/content/3x2/2000/20150824181921-meditate-yoga-relax-calm-zen.jpeg?width=700&crop=2:1)
 
-
+-----
 
 # 1. Keyboard Controlled Car
 
