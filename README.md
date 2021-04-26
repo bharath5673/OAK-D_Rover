@@ -4,7 +4,7 @@
 
  ![Alt text](spy-d.jpg) 
 
-and this car, my codes will work on all the devices such as jetson nano, windows, ubuntu, ros etc.. with the same code..  
+and this car, my codes will work on all the devices such as jetson nano, pis, pandas, and os like windows, ubuntu, ros etc.. with the same code..  
 python makes it easy, with the help of pyserial lib.
 
 simply just need to build the car, wireup as shown below,  to pip install pyserial and some libs and plug in device usb to arduino .. and keeps game is on.
