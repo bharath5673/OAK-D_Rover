@@ -46,7 +46,7 @@ simply just need to build the car, wireup as shown below,  pip install pyserial 
 
 
 
-**keyboard controlled car**
+# keyboard controlled car
 
 setting up everything to the aspects was highly challenging...
 bcoz of power // power was the limitation , and had to be played with in the limitations..
@@ -113,7 +113,7 @@ had to use a DC-DC buck converter  drawing power directly from the 12v batteries
     c. RPi to arduino connection with USB cable
     d. OAK-D to RPi connection with a USB cable
 
-#env setp:#
+**env setp:**
 
 ```
   python3 -m pip install -U pip
