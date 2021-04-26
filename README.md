@@ -147,7 +147,7 @@ face detetcion and recognition
 slam
 disparity mapping
 autonomus driving
-run time around 5+ hrs
+RunTime around 5+ hrs
 
 ```
 
