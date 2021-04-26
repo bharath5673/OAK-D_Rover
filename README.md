@@ -21,7 +21,9 @@
 *slam*\
 *disparity mapping*\
 *autonomus driving*\
-*RunTime around 5+ hrs*\
+*RunTime around 5+ hrs*
+
+
 
  
 
