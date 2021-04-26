@@ -123,6 +123,9 @@ had to use a DC-DC buck converter  drawing power directly from the 12v batteries
   python3 -m pip install -U pip
   python3 -m pip install opencv-python
   python3 -m pip install -U --force-reinstall depthai
+  
+  pip3 install pygame
+  pip install pyserial
 
 ```
 
