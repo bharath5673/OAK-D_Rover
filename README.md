@@ -46,7 +46,7 @@ simply just need to build the car, wireup as shown below,  pip install pyserial 
 
 
 
-# keyboard controlled car
+# 1. Keyboard Controlled Car
 
 setting up everything to the aspects was highly challenging...
 bcoz of power // power was the limitation , and had to be played with in the limitations..
@@ -73,7 +73,7 @@ had to use a DC-DC buck converter  drawing power directly from the 12v batteries
 
 
 
-**wiring:**
+**WIRING:**
 
     a. l298N motor driver
 
@@ -113,7 +113,7 @@ had to use a DC-DC buck converter  drawing power directly from the 12v batteries
     c. RPi to arduino connection with USB cable
     d. OAK-D to RPi connection with a USB cable
 
-**env setp:**
+**ENV SETUP:**
 
 ```
   python3 -m pip install -U pip
@@ -126,7 +126,7 @@ now it was all set to run the car by running [SPY-D_yolov4.py](SPY-D_yolov4.py) 
 
 *demo*
 
-yolov4 api
+# 2. yolov4 api
 
 
 
