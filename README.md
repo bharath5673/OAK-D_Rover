@@ -9,7 +9,7 @@ python makes it easy, with the help of pyserial lib.
 
 simply just need to build the car, wireup as shown below,  pip install pyserial and some libs and plug in device usb to arduino .. and game is on.
 
------------------------------------------------------------------------------------------------------------------------------
+----
 
 **components im using**
 
@@ -54,6 +54,7 @@ bcoz of power // power was the limitation , and had to be played with in the lim
 and to take control of a Car using simple Python code to bring the Car to life!
 with this connection setup  had to face lot for power incompatibility.
 
+----
 
 **POWER CONSUMPTION TABLE :**
 
@@ -72,7 +73,7 @@ while the other way , OAK-D has an another power chord.
 now thought of drawing power from L298Ns 5volts to OAK-d still had to face the same power incompatibility... RPi was unable to boot.
 had to use a DC-DC buck converter  drawing power directly from the 12v batteries step down to 5v. this  LM2596S module was capable upto 3A which was easy enough..
 
-
+----
 
 **WIRING:**
 
@@ -114,6 +115,8 @@ had to use a DC-DC buck converter  drawing power directly from the 12v batteries
     c. RPi to arduino connection with USB cable
     d. OAK-D to RPi connection with a USB cable
 
+----
+
 **ENV SETUP:**
 
 ```
@@ -125,7 +128,10 @@ had to use a DC-DC buck converter  drawing power directly from the 12v batteries
 
 now it was all set to run the car by running [SPY-D_yolov4.py](SPY-D_yolov4.py) :
 
+
 *demo*
+
+----
 
 # 2. yolov4 api
 
