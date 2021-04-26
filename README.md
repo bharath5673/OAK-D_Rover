@@ -54,7 +54,7 @@ bcoz of power // power was the limitation , and had to be played with in the lim
 and to take control of a Car using simple Python code to bring the Car to life!
 with this connection setup  had to face lot for power incompatibility.
 
-----
+
 
 **POWER CONSUMPTION TABLE :**
 
