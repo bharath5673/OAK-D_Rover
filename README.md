@@ -3,6 +3,27 @@
 **i turned my old toy car into a POWERFUL Robot.**
 
  ![Alt text](spy-d.jpg) 
+ 
+ 
+ 
+**robot specs:**
+
+/speed control upto 10 modes
+/live streaming
+object detetction
+object's distance estimation
+obstical avoidance
+sound notification
+LED headlamps
+object tracking
+face tracking
+face detetcion and recognition
+slam
+disparity mapping
+autonomus driving
+RunTime around 5+ hrs
+
+ 
 
 and this car, my codes will work on all the devices such as jetson nano, pis, pandas, and os like windows, ubuntu, ros etc.. with the same code..  
 python makes it easy, with the help of pyserial lib.
@@ -131,25 +152,6 @@ had to use a DC-DC buck converter  drawing power directly from the 12v batteries
 
 **now its all set to run the car** by running [SPY-D_yolov4.py](SPY-D_yolov4.py) :
 
-```
-robot specs:
-
-speed control upto 10 modes
-live streaming
-object detetction
-object's distance estimation
-obstical avoidance
-sound notification
-LED headlamps
-object tracking
-face tracking
-face detetcion and recognition
-slam
-disparity mapping
-autonomus driving
-RunTime around 5+ hrs
-
-```
 
 
 *demo*
