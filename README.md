@@ -129,7 +129,7 @@ had to use a DC-DC buck converter  drawing power directly from the 12v batteries
 
 ```
 
-**now it was all set to run the car** by running [SPY-D_yolov4.py](SPY-D_yolov4.py) :
+**now its all set to run the car** by running [SPY-D_yolov4.py](SPY-D_yolov4.py) :
 
 
 *demo*
