@@ -1,6 +1,6 @@
 # SPY-D
 
-**i turned my old toy car into a POWERFUL Robot.**
+**i turned my old toy car into a POWERFUL Robot. **
 
  ![Alt text](spy-d.jpg) 
 
