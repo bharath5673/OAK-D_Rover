@@ -113,7 +113,7 @@ had to use a DC-DC buck converter  drawing power directly from the 12v batteries
     c. RPi to arduino connection with USB cable
     d. OAK-D to RPi connection with a USB cable
 
-# env setp:#
+#env setp:#
 
 ```
   python3 -m pip install -U pip
