@@ -16,13 +16,9 @@ from pygame.locals import *
 
 
 # pyserial connect to arduino
-#serial_port = 'COM4'
+# serial_port = 'COM4'
 serial_port = "/dev/ttyUSB0"
 ser = serial.Serial(serial_port, 115200, timeout=0.05, xonxoff = 1, write_timeout = 0.05) # port config  # rtscts= 0
-
-
-
-
 
 
 '''
@@ -261,57 +257,65 @@ with dai.Device(pipeline) as device:
 
 
         ser.flush()
-        print (ser.readline())
+        # print (ser.readline())
 
-        def forward(ms):
-            ser.write(b'1')
-            print ('forward')
-            time.sleep(ms / 1000.)
+        # def forward(ms):
+        #     ser.write(b'1')
+        #     print ('forward')
+        #     time.sleep(ms / 1000.)
+        #     ser.write(b'0')
 
-        def reverse(ms):
-            ser.write(b'2')
-            print ('reverse')
-            time.sleep(ms / 1000.)
-
-
-        def right(ms):
-            ser.write(b'3')
-            print ('right')
-            time.sleep(ms / 1000.)
+        # def reverse(ms):
+        #     ser.write(b'2')
+        #     print ('reverse')
+        #     time.sleep(ms / 1000.)
+        #     ser.write(b'0')
 
 
-        def left(ms):
-            ser.write(b'4')
-            print ('left')
-            time.sleep(ms / 1000.)
+        # def right(ms):
+        #     ser.write(b'3')
+        #     print ('right')
+        #     time.sleep(ms / 1000.)
+        #     ser.write(b'0')
 
 
-        def forward_right(ms):
-            ser.write(b'5')
-            print ('forward_right')
-            time.sleep(ms / 1000.)
+        # def left(ms):
+        #     ser.write(b'4')
+        #     print ('left')
+        #     time.sleep(ms / 1000.)
+        #     ser.write(b'0')
 
-        def forward_left(ms):
-            ser.write(b'6')
-            print ('forward_left')
-            time.sleep(ms / 1000.)
 
-        def reverse_right(ms):
-            ser.write(b'7')
-            print ('reverse_right')
-            time.sleep(ms / 1000.)
+        # def forward_right(ms):
+        #     ser.write(b'5')
+        #     print ('forward_right')
+        #     time.sleep(ms / 1000.)
+        #     ser.write(b'0')
 
-        def reverse_left(ms):
-            ser.write(b'8')
-            print ('reverse_left')
-            time.sleep(ms / 1000.)
+        # def forward_left(ms):
+        #     ser.write(b'6')
+        #     print ('forward_left')
+        #     time.sleep(ms / 1000.)
+        #     ser.write(b'0')
 
-        def stop():
-            ser.write(b'0')
+        # def reverse_right(ms):
+        #     ser.write(b'7')
+        #     print ('reverse_right')
+        #     time.sleep(ms / 1000.)
+        #     ser.write(b'0')
 
-        def pause(ms):
-            # print 'pausing...'
-            time.sleep(ms / 1000.)
+        # def reverse_left(ms):
+        #     ser.write(b'8')
+        #     print ('reverse_left')
+        #     time.sleep(ms / 1000.)
+        #     ser.write(b'0')
+
+        # def stop():
+        #     ser.write(b'0')
+
+        # def pause(ms):
+        #     # print 'pausing...'
+        #     time.sleep(ms / 1000.)
 
 
 
@@ -324,39 +328,94 @@ with dai.Device(pipeline) as device:
                 key_input = pygame.key.get_pressed()
 
 
-                
-                # FORWARD
-                if key_input[pygame.K_UP]:
-                    forward(100)
-                elif key_input[pygame.K_RIGHT]:
-                    right(50)
-                elif key_input[pygame.K_LEFT]:                       
-                    left(50)
-                # REVERSE; not saving images for this
-                elif key_input[pygame.K_DOWN]:
-                    reverse(20)
-
-                elif key_input[pygame.K_UP] and key_input[pygame.K_RIGHT]:
-                    forward_right(200)
+                #car controls            
+                if key_input[pygame.K_UP] and key_input[pygame.K_RIGHT]:
+                    print("Forward Right")
+                    ser.write(b'5')
 
                 elif key_input[pygame.K_UP] and key_input[pygame.K_LEFT]:
-                    forward_left(200)
+                    print("Forward Left")
+                    ser.write(b'6')
 
                 elif key_input[pygame.K_DOWN] and key_input[pygame.K_RIGHT]:
-                    reverse_right(200)
+                    print("Reverse Right")
+                    ser.write(b'7')
 
                 elif key_input[pygame.K_DOWN] and key_input[pygame.K_LEFT]:
-                    reverse_left(200)
+                    print("Reverse Left")
+                    ser.write(b'8')
+
+                elif key_input[pygame.K_UP]:
+                    print("Forward")
+                    ser.write(b'1')
+
+                elif key_input[pygame.K_DOWN]:
+                    print("Reverse")
+                    ser.write(b'2')
+                    # time.sleep(0.5)
+
+                elif key_input[pygame.K_RIGHT]:
+                    print("Right")
+                    ser.write(b'3')
+
+                elif key_input[pygame.K_LEFT]:
+                    print("Left")
+                    ser.write(b'4')
+
+
+                # motor speed controls
+                elif key_input[pygame.K_g]:
+                    print("speed 40%")
+                    ser.write(b'g')
+
+                elif key_input[pygame.K_h]:
+                    print("speed 45%")
+                    ser.write(b'h')
+                elif key_input[pygame.K_j]:
+                    print("speed 50%")
+                    ser.write(b'j')
+
+                elif key_input[pygame.K_k]:
+                    print("speed 60%")
+                    ser.write(b'k')
+
+                elif key_input[pygame.K_l]:
+                    print("speed 70%")
+                    ser.write(b'l')
+
+                elif key_input[pygame.K_b]:
+                    print("speed 80%")
+                    ser.write(b'b')
+
+                elif key_input[pygame.K_n]:
+                    print("speed 90%")
+                    ser.write(b'n')
+
+                elif key_input[pygame.K_m]:
+                    print("speed 100%")
+                    ser.write(b'm')
+
+
+                #lights 
+                elif key_input[pygame.K_o]:
+                    print("head light on")
+                    ser.write(b'o')
+
+                elif key_input[pygame.K_p]:
+                    print("head light off")
+                    ser.write(b'p')
+
+
 
 
                 elif key_input[pygame.K_x] or key_input[pygame.K_q]:
                     # pause(10)
-                    stop()
+                    ser.write(b'0')
                     send_inst = False
                     break
 
             elif event.type == pygame.KEYUP:                           
-                stop()
+                ser.write(b'0')
 
             elif event.type == pygame.QUIT:
                 break
@@ -366,8 +425,8 @@ with dai.Device(pipeline) as device:
 
         # mutex.release()
         cv2.putText(frame, "NN fps: {:.2f}".format(fps), (2, frame.shape[0] - 4), cv2.FONT_HERSHEY_TRIPLEX, 0.4, color)
-        # cv2.imshow("SPY-D depth", depthFrameColor)
-        cv2.imshow("SPY-D", frame)
+        # cv2.imshow("depthai SDC depth", depthFrameColor)
+        cv2.imshow("depthai SDC", frame)
 
 
         if cv2.waitKey(1) == ord('q'):
